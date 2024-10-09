@@ -1,0 +1,45 @@
+.form-pendaftaran {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin-top: 50px;
+    margin-left: 650px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.134);
+    border-radius: 20px;
+    border: #0000 1px;
+}
+.form-pendaftaran p{
+    font-size: 20px;
+    margin-left: 100px;
+}
+/* .form-pendaftaran label {
+    margin-bottom: 5px;
+} */
+.head{
+    font-size: 40px;
+    margin-left: 350px;
+}
+.form-pendaftaran input {
+    padding: 15px 210px;
+    margin: 5px 100px ;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 13px;
+
+}
+
+.form-pendaftaran button {
+    padding: 15px;
+    background-color:#96bde3;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px 250px;
+    width: 200px;
+    font-size: 20px;
+}
+
+.form-pendaftaran button:hover {
+    background-color: #6f8dab;
+}

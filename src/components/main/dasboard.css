@@ -1,0 +1,32 @@
+.main-panel {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 300px;
+    
+  }
+  
+  
+  .greeting-message {
+    margin: 20px 200px 20px 300px;
+  }
+  
+  .department-needs {
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 300px;
+  }
+  
+  .department-card {
+    background-color: #ecf0f1;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+  .department-card i {
+    margin-right: 400px;
+  }
+  

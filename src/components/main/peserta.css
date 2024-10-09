@@ -1,0 +1,63 @@
+.peserta-magang {
+    font-family: Arial, sans-serif;
+    margin: 50px 100px 10px 350px;
+}
+.magangHead .Done {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.content{
+    width: auto;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    margin: 50px 50px;
+    padding: 20px 25px 400px;
+    border-radius: 15px;
+    background-color: #dbd8995d;
+
+}
+.content2{
+    width: auto;
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1); 
+    margin: 50px 50px;
+    padding: 20px 25px 400px;
+    border-radius: 15px;
+    background-color: #9ac8e870;
+}
+.magang .selesaiMagang{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px #0000;
+    
+}
+thead {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 0.5px solid #a1ebff;
+}
+
+tr:nth-child(even) {
+    background-color: #f1e39b;
+}
+
+tr:hover {
+    background-color: #327d92;;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #b2fbfd;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9ae0e8;
+}
