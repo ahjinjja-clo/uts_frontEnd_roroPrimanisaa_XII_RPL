@@ -1,7 +1,7 @@
 {
   "name": "magang_frontend",
   "version": "0.1.0",
-  "homepage": "https://github.com/ahjinjja-clo/Uts_deploy_RoroPrimanisaa.git",
+  "homepage": "https://github.com/ahjinjja-clo/uts_frontEnd_roroPrimanisaa_XII_RPL.git",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

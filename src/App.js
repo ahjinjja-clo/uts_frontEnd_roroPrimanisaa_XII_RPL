@@ -7,7 +7,7 @@ import Recruitment from './components/main/recruitment.jsx';
 
 function App() {
   return (
-    <BrowserRouter basename='/Uts_deploy_RoroPrimanisaa/'>
+    <BrowserRouter basename='/uts_frontEnd_roroPrimanisaa_XII_RPL/'>
     <Router>
       <div>
         <Navbar />
