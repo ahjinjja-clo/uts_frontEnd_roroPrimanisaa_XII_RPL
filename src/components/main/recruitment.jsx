@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './recruitment.css';
-import { apiGet } from '../../api.js';
+import api, { apiGet } from '../../api.js';
 
 const Recruitment = () => {
     const [applicants, setApplicants] = useState([]);
