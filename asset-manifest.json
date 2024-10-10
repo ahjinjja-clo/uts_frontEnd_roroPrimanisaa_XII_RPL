@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ahjinjja-clo/Uts_deploy_RoroPrimanisaa.git/static/css/main.762f0d74.css",
+    "main.js": "/ahjinjja-clo/Uts_deploy_RoroPrimanisaa.git/static/js/main.8560f54d.js",
+    "index.html": "/ahjinjja-clo/Uts_deploy_RoroPrimanisaa.git/index.html",
+    "main.762f0d74.css.map": "/ahjinjja-clo/Uts_deploy_RoroPrimanisaa.git/static/css/main.762f0d74.css.map",
+    "main.8560f54d.js.map": "/ahjinjja-clo/Uts_deploy_RoroPrimanisaa.git/static/js/main.8560f54d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.762f0d74.css",
+    "static/js/main.8560f54d.js"
+  ]
+}
