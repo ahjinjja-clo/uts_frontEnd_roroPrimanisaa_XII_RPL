@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ahjinjja-clo/Uts_deploy_RoroPrimanisaa.git/static/css/main.762f0d74.css",
-    "main.js": "/ahjinjja-clo/Uts_deploy_RoroPrimanisaa.git/static/js/main.938b6803.js",
-    "index.html": "/ahjinjja-clo/Uts_deploy_RoroPrimanisaa.git/index.html",
-    "main.762f0d74.css.map": "/ahjinjja-clo/Uts_deploy_RoroPrimanisaa.git/static/css/main.762f0d74.css.map",
-    "main.938b6803.js.map": "/ahjinjja-clo/Uts_deploy_RoroPrimanisaa.git/static/js/main.938b6803.js.map"
+    "main.css": "/ahjinjja-clo/uts_frontEnd_roroPrimanisaa_XII_RPL.git/static/css/main.762f0d74.css",
+    "main.js": "/ahjinjja-clo/uts_frontEnd_roroPrimanisaa_XII_RPL.git/static/js/main.17789e06.js",
+    "index.html": "/ahjinjja-clo/uts_frontEnd_roroPrimanisaa_XII_RPL.git/index.html",
+    "main.762f0d74.css.map": "/ahjinjja-clo/uts_frontEnd_roroPrimanisaa_XII_RPL.git/static/css/main.762f0d74.css.map",
+    "main.17789e06.js.map": "/ahjinjja-clo/uts_frontEnd_roroPrimanisaa_XII_RPL.git/static/js/main.17789e06.js.map"
   },
   "entrypoints": [
     "static/css/main.762f0d74.css",
-    "static/js/main.938b6803.js"
+    "static/js/main.17789e06.js"
   ]
 }
