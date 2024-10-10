@@ -51,7 +51,6 @@ const apiDelete = async (endpoint) => {
 // Example React component using the API methods
 const ExampleComponent = () => {
   const [data, setData] = useState(null);
-  const navigate = useNavigate();
 
   const fetchData = async () => {
     try {
