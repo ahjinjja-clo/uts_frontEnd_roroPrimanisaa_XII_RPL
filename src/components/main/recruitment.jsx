@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './recruitment.css';
-import api from '../../api.js';
+import api, { apiGet } from '../../api.js';
 
 const Recruitment = () => {
     const [applicants, setApplicants] = useState([]);
@@ -9,7 +9,7 @@ const Recruitment = () => {
         // Fungsi untuk mengambil data dari API atau database
         const fetchData = async () => {
             try {
-                const response = await api.get('/applicants'); // Ganti dengan URL API Anda
+                const response = await apiGet('http://localhost:3000'); // Ganti dengan URL API Anda
                 const data = await response.json();
                 setApplicants(data);
             } catch (error) {

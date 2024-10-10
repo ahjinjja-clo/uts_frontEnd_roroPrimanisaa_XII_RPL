@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './peserta.css';
-import api from '../../api';
+import { apiGet } from '../../api';
 
 const Peserta = () => {
     const [currentParticipants, setCurrentParticipants] = useState([]);
@@ -10,11 +10,11 @@ const Peserta = () => {
         // Fungsi untuk mengambil data dari API atau database
         const fetchData = async () => {
             try {
-                const responseCurrent = await api.get('/current-participants'); // Ganti dengan URL API untuk peserta saat ini
+                const responseCurrent = await apiGet('http://localhost:3000/Peserta'); // Ganti dengan URL API untuk peserta saat ini
                 const dataCurrent = await responseCurrent.json();
                 setCurrentParticipants(dataCurrent);
 
-                const responseFinished = await api.get('/finished-participants'); // Ganti dengan URL API untuk peserta yang sudah selesai
+                const responseFinished = await apiGet('http://localhost:3000/Peserta'); // Ganti dengan URL API untuk peserta yang sudah selesai
                 const dataFinished = await responseFinished.json();
                 setFinishedParticipants(dataFinished);
             } catch (error) {
